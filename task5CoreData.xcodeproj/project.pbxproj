@@ -13,6 +13,8 @@
 		F2DBEA4B21CA0B9B0093B0A7 /* task5CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2DBEA4921CA0B9B0093B0A7 /* task5CoreData.xcdatamodeld */; };
 		F2DBEA4D21CA0B9E0093B0A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2DBEA4C21CA0B9E0093B0A7 /* Assets.xcassets */; };
 		F2DBEA5021CA0B9E0093B0A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2DBEA4E21CA0B9E0093B0A7 /* LaunchScreen.storyboard */; };
+		F2DBEA5921CA495D0093B0A7 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DBEA5721CA495D0093B0A7 /* TableViewCell.swift */; };
+		F2DBEA5A21CA495D0093B0A7 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2DBEA5821CA495D0093B0A7 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F2DBEA4C21CA0B9E0093B0A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2DBEA4F21CA0B9E0093B0A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2DBEA5121CA0B9E0093B0A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2DBEA5721CA495D0093B0A7 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		F2DBEA5821CA495D0093B0A7 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				F2DBEA4E21CA0B9E0093B0A7 /* LaunchScreen.storyboard */,
 				F2DBEA5121CA0B9E0093B0A7 /* Info.plist */,
 				F2DBEA4921CA0B9B0093B0A7 /* task5CoreData.xcdatamodeld */,
+				F2DBEA5721CA495D0093B0A7 /* TableViewCell.swift */,
+				F2DBEA5821CA495D0093B0A7 /* TableViewCell.xib */,
 			);
 			path = task5CoreData;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2DBEA5021CA0B9E0093B0A7 /* LaunchScreen.storyboard in Resources */,
+				F2DBEA5A21CA495D0093B0A7 /* TableViewCell.xib in Resources */,
 				F2DBEA4D21CA0B9E0093B0A7 /* Assets.xcassets in Resources */,
 				F2DBEA4821CA0B9B0093B0A7 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2DBEA4521CA0B9B0093B0A7 /* ViewController.swift in Sources */,
+				F2DBEA5921CA495D0093B0A7 /* TableViewCell.swift in Sources */,
 				F2DBEA4B21CA0B9B0093B0A7 /* task5CoreData.xcdatamodeld in Sources */,
 				F2DBEA4321CA0B9B0093B0A7 /* AppDelegate.swift in Sources */,
 			);
